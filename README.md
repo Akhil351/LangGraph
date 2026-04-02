@@ -82,7 +82,7 @@ Basic LangGraph setup with a single node that processes input and returns output
 
 **Run:**
 ```bash
-python Graph/1_First_Graph.py
+python -m Graph/1_First_Graph.py
 ```
 
 ### 2. Pydantic State
@@ -90,7 +90,7 @@ Using Pydantic models for type-safe state management with validation.
 
 **Run:**
 ```bash
-python Graph/2_Pydantic.py
+python -m Graph/2_Pydantic.py
 ```
 
 ### 3. Messages
@@ -98,7 +98,7 @@ Working with different message types (SystemMessage, HumanMessage, AIMessage).
 
 **Run:**
 ```bash
-python Graph/3_Messages.py
+python -m Graph/3_Messages.py
 ```
 
 ### 4. Prompts
@@ -106,7 +106,7 @@ Building reusable prompt templates with LangChain.
 
 **Run:**
 ```bash
-python Graph/4_Prompts.py
+python -m Graph/4_Prompts.py
 ```
 
 ### 5. Tools
@@ -114,7 +114,7 @@ Introduction to tool integration with interactive chat loop and Google Search.
 
 **Run:**
 ```bash
-python Graph/5_Tools.py
+python -m Graph/5_Tools.py
 ```
 
 ### 6. ReAct Agent
@@ -122,7 +122,7 @@ Full ReAct pattern implementation with tool calling and decision-making.
 
 **Run:**
 ```bash
-python Graph/6_ReAct_Agent.py
+python -m Graph/6_ReAct_Agent.py
 ```
 
 ### 7. Parallelization
@@ -130,7 +130,7 @@ Executing multiple nodes concurrently to generate social media posts for Instagr
 
 **Run:**
 ```bash
-python Graph/7_Parallelization.py
+python -m Graph/7_Parallelization.py
 ```
 
 ### 8. Routing
@@ -138,7 +138,7 @@ Dynamic routing based on LLM decisions to select the appropriate social media pl
 
 **Run:**
 ```bash
-python Graph/8_Routing.py
+python -m Graph/8_Routing.py
 ```
 
 ### 9. Orchestrator
@@ -146,7 +146,7 @@ Multi-agent system that breaks down complex queries into subtasks, executes them
 
 **Run:**
 ```bash
-python Graph/9_Orchestrator.py
+python -m Graph/9_Orchestrator.py
 ```
 
 ### 10. Generator-Evaluator
@@ -154,7 +154,7 @@ Iterative refinement pattern where a generator creates content and an evaluator 
 
 **Run:**
 ```bash
-python Graph/10_Generator_Evaluator.py
+python -m Graph/10_Generator_Evaluator.py
 ```
 
 ### 11. Memory
@@ -162,7 +162,7 @@ Stateful chatbot that maintains conversation context across multiple interaction
 
 **Run:**
 ```bash
-python Graph/11_Memory.py
+python -m Graph/11_Memory.py
 ```
 
 ### 12. Human-in-the-Loop
@@ -170,7 +170,7 @@ Interactive workflow requiring human approval before finalizing AI responses.
 
 **Run:**
 ```bash
-python Graph/12_Human_In_The_Loop.py
+python -m Graph/12_Human_In_The_Loop.py
 ```
 
 ## Key Concepts
