@@ -218,7 +218,7 @@ SERPAPI_API_KEY=your_serpapi_key_here
 Run any example directly:
 
 ```bash
-python Graph/<example_name>.py
+python -m  Graph/<example_name>.py
 ```
 
 Or use the main entry point:
